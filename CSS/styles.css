@@ -1,0 +1,409 @@
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans&family=Space+Grotesk:wght@300;400;500;700&display=swap');
+
+
+* {
+  font-family: 'Space Grotesk', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: rgb(253, 210, 174);
+  width: 100vw;
+  height: 56px;
+  position: fixed;
+}
+
+#side-menu {
+  display: none;
+  position: fixed;
+  width: 100vw;
+  height: 30vh;
+  background-color: rgb(255, 226, 203);
+}
+
+#side-menu i {
+  font-size: 30px;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 20px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px 0px 25px 0px;
+}
+
+nav a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  margin-right: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.TextHeader {
+  display: flex;
+  height: 100vh;
+  align-items: start;
+  justify-content: center;
+  background: url(../img/portada.jpg);
+  background-size: cover;
+  flex-direction: column;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.TextHeader h1 {
+  font-size: 56px;
+  color: white;
+}
+
+.TextHeader h2 {
+  font-size: 30px;
+  font-weight: 300;
+  color: white;
+}
+
+#FrontPage {
+  width: 100%;
+  background-size: cover;
+}
+
+/* div 1 */
+
+.NewsContainer {
+  /* display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap; */
+  width: 100vw;
+  overflow: hidden;
+}
+
+.Slider {
+  display: flex;
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
+  height: 150px;
+  gap: 10px;
+}
+
+.HoverContainer>img {
+  max-width: 150px;
+  max-height: 400px;
+}
+
+/* div 1 */
+
+/* .ClothesElements{
+   margin-top: 5;
+   margin-bottom: 5;
+   width: 90%;
+   overflow: hidden;
+ } */
+
+/* div 2 */
+
+.Elements {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.Element1 {
+  padding: 80px 0px 20px 0px;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100vw;
+  height: 150vh;
+}
+
+.ImgText1 {
+  display: flex;
+  background: url(../img/abrigo1.jpg);
+  background-size: cover;
+  justify-content: center;
+  background-position: center;
+  align-items: center;
+  width: 50vw;
+  color: white;
+  font-size: xx-large;
+  margin-right: 20px;
+}
+
+.ImgText2 {
+  display: flex;
+  background: url(../img/Kanibag.jpg);
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+  width: 50vw;
+  color: white;
+  font-size: xx-large;
+}
+
+.Element2 {
+  padding: 20px 0px 20px 0px;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100vw;
+  height: 75vh;
+}
+
+.ImgText3 {
+  display: flex;
+  background: url(../img/chaqueta.jpg);
+  background-size: cover;
+  background-position: center;
+  justify-content: center;
+  align-items: center;
+  width: 50vw;
+  color: white;
+  font-size: xx-large;
+  margin-right: 20px;
+}
+
+.ImgText4 {
+  display: flex;
+  background: url(../img/pantalones.jpg);
+  background-size: cover;
+  background-position: center;
+  justify-content: center;
+  align-items: center;
+  width: 50vw;
+  color: white;
+  font-size: xx-large;
+  margin-right: 20px;
+}
+
+.ImgText5 {
+  display: flex;
+  background: url(../img/jeans.jpg);
+  background-size: cover;
+  justify-content: center;
+  background-position: center;
+  align-items: center;
+  width: 50vw;
+  color: white;
+  font-size: xx-large;
+}
+
+.Element3 {
+  padding: 20px 0px 20px 0px;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100vw;
+  height: 50vh;
+}
+
+.ImgText6 {
+  display: flex;
+  background: url(../img/Zapatillas\ 4.jpg);
+  background-size: cover;
+  justify-content: center;
+  background-position: center;
+  align-items: center;
+  width: 100vw;
+  color: white;
+  font-size: xx-large;
+}
+
+/* div 2 */
+
+/* div 3 */
+
+.Blog {
+  margin: 15px 0;
+}
+
+/* div 3 */
+
+/* div 4 */
+
+.AboutUS {
+  padding-bottom: 30px;
+}
+
+.Container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.ServiceIcon {
+  text-align: center;
+}
+
+.ServiceIcon i {
+  font-size: 35px;
+  margin-bottom: 10px;
+}
+
+.ServiceIcon h3 {
+  padding: 20px 0px;
+}
+
+.ServiceIcon p {
+  font-weight: 300;
+
+}
+
+/* div 4 */
+
+footer {
+  background-color: rgba(248, 179, 110, 0.699);
+  padding: 10px 0px 30px 0px;
+  height: 45vh;
+  margin: auto;
+  overflow: hidden;
+}
+
+.Containers {
+  display: flex;
+  width: 90vw;
+  justify-content: space-evenly;
+  margin: auto;
+  padding: 50px 0;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  /* border-bottom: 1px solid white;
+  border-top: 1px solid white; */
+}
+
+.ContentFooter h4 {
+  margin-bottom: 25px;
+}
+
+.ContentFooter p {
+  margin-bottom: 25px;
+}
+
+.Title {
+  font-size: 30px;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* #header i{
+    size: 15;
+    color: white;
+    margin-left: 2em;
+    margin-top: 1em;
+ } */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+  .Element1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100vw;
+  }
+
+  .ImgText1 {
+    display: flex;
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    background: url(../img/abrigo1.jpg);
+    color: white;
+    font-size: xx-large;
+    margin-right: 0;
+    height: 50%;
+    width: 400px;
+  }
+
+  .ImgText2 {
+    display: flex;
+    background: url(../img/Kanibag.jpg);
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    height: 50%;
+    width: 400px;
+    color: white;
+    font-size: xx-large;
+  }
+
+  .Element2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 2000px;
+  }
+
+  .ImgText3 {
+    display: flex;
+    background: url(../img/chaqueta.jpg);
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    height: 33%;
+    width: 400px;
+    color: white;
+    font-size: xx-large;
+    margin-right: 0px;
+  }
+
+  .ImgText4 {
+    display: flex;
+    background: url(../img/pantalones.jpg);
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    height: 33%;
+    width: 400px;
+    color: white;
+    font-size: xx-large;
+    margin-right: 0px;
+  }
+
+  .ImgText5 {
+    display: flex;
+    background: url(../img/jeans.jpg);
+    background-size: cover;
+    justify-content: center;
+    background-position: center;
+    align-items: center;
+    height: 33%;
+    width: 400px;
+    color: white;
+    font-size: xx-large;
+  }
+
+  .Element3 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    height: 500px;
+  }
+
+  .ImgText6 {
+    display: flex;
+    background: url(../img/Zapatillas\ 4.jpg);
+    background-size: cover;
+    justify-content: center;
+    background-position: center;
+    align-items: center;
+    width: 400px;
+    height: 700px;
+    color: white;
+    font-size: xx-large;
+  }
+
+}
